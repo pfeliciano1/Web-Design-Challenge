@@ -1,6 +1,8 @@
 .row {
-    background: white;
-    margin: 50px 75px 50px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 h1 {
@@ -21,14 +23,8 @@ h3 {
     font-weight: bold;
 }
 
-* {
+*, ::after, ::before {
     box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
   }
   
   /* Clearfix (clear floats) */
@@ -38,7 +34,7 @@ h3 {
     display: table;
   }
 
-  .navbar-light .navbar-brand {
+.navbar-light .navbar-brand {
     background: lightseagreen;
     font-family: Georgia;
     color: white;
@@ -54,4 +50,12 @@ h3 {
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
+}
+
+.box {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 10px 10px;
+    background-color: white;
 }
