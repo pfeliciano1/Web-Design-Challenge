@@ -15,3 +15,43 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    color: lightseagreen;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navbar-light .navbar-brand {
+    background: lightseagreen;
+    font-family: Georgia;
+    color: white;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
